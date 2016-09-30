@@ -59,6 +59,7 @@
   </div>
 
   <div ng-show="player" role="main" class="col-sm-offset-4">
+    <h1 style="color:red">L'enregistrement est bloqué durant la période de l'activité. Elle sera réactivée le 10 avril 2017. Merci de votre compréhension.</h1>
     <div ng-show="sheet_view.mode == 'form_write'">
       <form name="my_form_char" ng-submit="onSubmit(my_form_char)">
         <div sf-schema="schema_user" sf-form="form_user" sf-model="model_user"></div>
@@ -75,4 +76,5 @@
 
   </div> <!-- end div if player -->
 </div> <!-- end of character_ctrl -->
+
 {% end %}
